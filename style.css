@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.big-padding-x {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.big-margin-x {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.bg-dark {
+  background-color: #1f2937;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.logo-text {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.bg-blue {
+  background-color: #3882f6;
+}
+
+.info-text {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.bg-gray {
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.header {
+  padding-top: 1.5rem;
+  padding-bottom: 4rem;
+}
+
+.info-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-links {
+  display: flex;
+  gap: 10px;
+}
+
+.header-description {
+  display: flex;
+  margin-top: 4rem;
+  gap: 2.5rem;
+}
+
+.header-left {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+}
+
+.signup-button {
+  border: 3px solid #3882f6;
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: white;
+  align-self: flex-start;
+}
+
+.random-info-text {
+  text-align: center;
+}
+
+.random-infos {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  width: 100%;
+}
+
+.random-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-wrap: break-word;
+  width: 128px;
+  gap: 0.75rem;
+}
+
+.random-info > img {
+  border: 5px solid #19b8e9;
+  border-radius: 15px;
+}
+
+.random-info > p {
+  width: 100%;
+  text-align: center;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  gap: 1.5rem;
+}
+
+.action-section {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  border-radius: 5px;
+  gap: 10px;
+}
+
+.action-section > div {
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%; */
+  flex: 1;
+}
+
+.action-section > button {
+  border: 3px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 5px 45px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #e5e7eb;
+}
